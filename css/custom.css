@@ -10,11 +10,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.section-footer {
-  padding: 1rem 0 1rem;
-  text-align: center;
-}
-
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
@@ -111,8 +106,21 @@
   .section {
     padding: 20rem 0 19rem;
   }
+  .section-header {
+    padding: 25rem 0 24rem;
+  }
+  .section-brat {
+    padding: 5rem 0 7rem;
+  }
+  .section-demo {
+    padding: 18rem 0 1rem;
+  }
   .section-footer {
-    padding: 5rem 0 4rem;
+    text-align: center;
+    padding: 3rem 0 1rem;
+    background-color: black;
+    background-size: cover;
+    color: #fff;
   }
   .hero {
     padding: 22rem 0;
@@ -133,4 +141,9 @@
 textarea {
     min-height: 130px;
     color: black;
+}
+
+#embedding-entity-example {
+    font-size: 30;
+    color: aqua;
 }
