@@ -111,6 +111,9 @@
   .section {
     padding: 20rem 0 19rem;
   }
+  .section-footer {
+    padding: 5rem 0 4rem;
+  }
   .hero {
     padding: 22rem 0;
   }
@@ -126,6 +129,8 @@
     max-height: 570px;
   }
 }
-.button-primary {
-    
+
+textarea {
+    min-height: 130px;
+    color: black;
 }

@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/smoothscroll.js"></script>
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,12 +35,12 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
 
 </head>
 <body>
     
-    <a href="https://github.com/gree-gorey/rusclasp" target="_blank"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+    <a href="https://github.com/gree-gorey/rusclasp"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -43,10 +49,10 @@
     <div class="container">
       <h1 class="section-heading">rusclasp</h1>
       <br/>
-      <p class="section-description">rusclasp — Russian Clause Splitter — is a Python module for automatic clause detection and segmentation sentences into clauses with elimination of split predications</p>
+      <p class="section-description">rusclasp — Russian Clause Splitter — is a <span style="font-variant: small-caps;">python</span> module for automatic clause detection, segmentation sentences into clauses and restoring of split predications</p>
       <br/>
       <br/>
-      <a class="button button-primary" href="#">Demonstration</a>
+      <a class="button button-primary smoothScroll" href="#demo">Demonstration</a>
     </div>
   </div>
 
@@ -59,7 +65,20 @@
 
   <div class="section-footer categories">
     <div class="container">
-      <p>gree-gorey &#169; 2016</p>
+      <h1 class="section-heading" id="demo">demo</h1>
+      <br/>
+      <p class="section-description">here you can try it out. What r u waiting for??</p>
+      <br/>
+      <form>
+          <textarea rows="50" class="u-full-width" placeholder="Your text to split..." id="example"></textarea>
+          <input class="button-primary" type="submit" value="Split it!">
+      </form>
+    </div>
+  </div>
+    
+  <div class="section-footer get-help">
+    <div class="container">
+      <p>gree-gorey &#169;</p>
     </div>
   </div>
 
